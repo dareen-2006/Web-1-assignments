@@ -1,3 +1,18 @@
 h3{
-    background-color:hsl(160, 48%, 71%)
+    background-color:rgb(246, 216, 231)
+}
+h2 {
+   
+    text-decoration:underline;
+}
+h1 {
+    background-color:rgb(247, 224, 235)
+}
+
+img{
+    border: 5px solid black;
+}
+html {
+    background-image:url("../back.png") ;
+    background-size: cover;
 }

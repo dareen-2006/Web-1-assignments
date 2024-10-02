@@ -7,39 +7,50 @@
     <link rel="stylesheet" href="css/web.css">
 </head>
 <body>
-<main><!--Name + picture+paragraph about my self-->
-    <header>
-    <h1>Website About Me!</h1>
+    <header><!-- Title + list -->
+        <h1>Website About Me!</h1>
+    <nav>
+        <ul>
+          <li><a style="color:rgb(126, 89, 77)" href="#me">About me .</a></li>
+          <li><a style="color:rgb(126, 89, 77)"href="#hobbies">My hobbies .</a></li>
+          <li><a style="color:rgb(126, 89, 77)"href="#form">Guess .</a></li>
+          <li><a style="color:rgb(126, 89, 77)"href="#grow">What i want to be when i grow up .</a></li>
+          <li><a style="color:rgb(126, 89, 77)"href="#project">previous project .</a></li>
+        </ul>
+      </nav>
+    </header>
+<main id ="me"><!--Name + picture+paragraph about my self-->
+    
         <h2 >Dareen Abu Aisheh</h2>
         <img  src="./Dareen.jpg"onerror="this.src='fallback_image.jpg'" width="370" height="490">
         <p >My name is Dareen Abu Aisheh , I am 18 years old , i am a palestinian girl and i live in Nablus .I am studying at An-Najah National University CAP major .</p>
     
-   </header>
+  
 </main>
-<nav> <!--hobbies--> 
+<nav id="hobbies"> <!--hobbies--> 
         <h3>My hobbies</h3>
         <ul>
-            <li> I love <a href="https://en.wikipedia.org/wiki/Reading">reading</a> </li>
+            <li> I love <a style="color:rgb(126, 89, 77)" href="https://en.wikipedia.org/wiki/Reading">reading</a> </li>
             <img src="./reading.jpg" onerror="this.src='fallback_image.jpg'"width=100 length=200 >
-            <li>I love <a href="https://en.wikipedia.org/wiki/Coding">coding</a> </li>
+            <li>I love <a style="color:rgb(126, 89, 77)"href="https://en.wikipedia.org/wiki/Coding">coding</a> </li>
             <img src="./coding.jpg"onerror="this.src='fallback_image.jpg'"width=100 length=200 >
-            <li> I love <a href="https://en.wikipedia.org/wiki/Walking">walking</a></li>
+            <li> I love <a style="color:rgb(126, 89, 77)"href="https://en.wikipedia.org/wiki/Walking">walking</a></li>
             <img src="./walking.jpg" onerror="this.src='fallback_image.jpg'"width=100 length=200>
         </ul>
     
 </nav>
-<form id="1"><!--Form-->
+<form id="form"><!--Form-->
   <label  for="hobby"> Guess my favourite hobby?</label>
             <Input type="text" id="hobby"placeholder="Guess..."></Input>
             <button>submit</button>
 </form>
-<section><!--What i want to be when i grow up-->
+<section id="grow"><!--What i want to be when i grow up-->
        <h3>What i want to be when i grow up ?</h3>
        <p>I want to be a success person , and when i say success i mean a good daughter ,a good sister , a good friend , i want to depend on myself and i wanna have my own car . That's it ! </p>
 </section>
-<nav><!--previous project-->
+<nav id ="project"><!--previous project-->
   <h3>One of my previous projects!</h3>
-  <a href="https://github.com/dareen-2006/Web-1-assignments.git">My first project</a>
+  <a style="color:rgb(126, 89, 77)"href="https://github.com/dareen-2006/Web-1-assignments.git">My first project</a>
 </nav>
 </body>
 </html>

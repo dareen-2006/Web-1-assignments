@@ -1,20 +1,172 @@
-h3{
+
+ h3{
+    font-size: 300%;
+    color:rgb(126, 89, 77);
+    margin-left: 20px;
+    text-shadow: 4px 4px 5px white;
+ }
+.who{
+    font-size: 537%;
+    font-style:normal;
+    color:rgb(126, 89, 77);
+    text-shadow: 3px 3px 5px white;
     
-    background-color:rgba(220, 188, 177, 0.623)
 }
-h2 {
+main {
+    display: flex; 
+    justify-content: space-between;
+    align-items:center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
    
-    text-decoration:underline;
 }
-h1 {
-    
-    background-color:rgba(220, 188, 177, 0.623)
+#head-back{
+    background-color: rgba(220, 188, 177, 0.915);
+    border-radius: 10px;
+    margin-right: 28px;
+    margin-left: 435px;
+    height: 396px;
 }
 
-img{
-    border: 5px solid black;
+.title {
+    
+    text-align: center;
+    -webkit-text-fill-color: rgb(242, 244, 247);
+    background-color:rgba(220, 188, 177, 0.623);
+    padding: 10px 30px ;
+    width:95%;
+     margin: auto;
+     margin-bottom: 30px;
+    border:10px rgba(220, 188, 177, 0.623) solid;
+    border-radius: 10px;
 }
+
 html {
     background-image:url("../back.png") ;
     background-size: cover;
 }
+a{
+    text-decoration: none;
+   text-decoration-color: rgba(220, 188, 177, 0.915);
+}
+.white{
+    background-color: aliceblue;
+    padding: 10px  ;
+    width:55%;
+     margin: auto;
+     margin-bottom: 30px;
+     margin-left: 10px;
+    border-radius:10px ;
+    border-color: rgba(220, 188, 177, 0.623) ;
+    border-style: solid;
+}
+.me-img{
+    position:relative;
+    left: -137px;
+    bottom: -7px;
+   float: left;
+   margin-left: 150px;
+   margin-bottom: 15px;
+   width: 345px;
+   height: 450px;
+   border: 10px;
+   border-radius: 5px;
+   border-color: rgba(220, 188, 177, 0.915);
+   border-style: solid;
+
+}
+#hobbies{
+    border-radius: 10px;
+    height: 400px;
+    margin-bottom: 13px;
+    margin-top: 33px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+#imgs{
+    
+    margin-left: 210px;
+    margin-top: -38px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-color:rgb(126, 89, 77);
+    border-style: solid;
+    border-width: 8px;
+
+}
+#pics{
+    background-color:  rgba(220, 188, 177, 0.915);
+    border-radius: 10px;
+   outline: aliceblue solid 20px;
+    height: 357px;
+    
+}
+#links{
+    margin-left: 270px;
+    margin-right: 85px;
+    font-size: 150%;
+}
+#form{
+    background-color:rgba(220, 188, 177, 0.915);
+    padding: 10px  ;
+    width:96.5%;
+     margin: auto;
+     margin-bottom: 70px;
+     margin-left: 20px;
+    border-radius: 10px;
+    outline: aliceblue solid 20px;
+    height: 200px;
+   
+    
+}
+button{
+    padding: 10px;
+    color:rgb(126, 89, 77);
+    outline: rgb(158, 115, 101) solid  5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+Input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    margin: 10px 0;
+    outline: rgb(126, 89, 77) solid 2px;
+    
+  }
+  #grow{
+    background-color:rgba(220, 188, 177, 0.915) ;
+    padding: 10px  ;
+    width:96.5%;
+     margin: auto;
+     margin-bottom: 80px;
+     margin-left: 20px;
+    outline: aliceblue solid 20px;
+    border-radius: 10px;
+    height: 200px;
+    
+  }
+  #project{
+    background-color:rgba(220, 188, 177, 0.915) ;
+    padding: 10px  ;
+    width:96.5%;
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 50px;
+     margin-left: 20px;
+    border-radius: 10px;
+    outline: aliceblue solid 20px;
+    height: 200px;
+  }
+  
+

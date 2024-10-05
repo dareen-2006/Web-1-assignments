@@ -7,50 +7,58 @@
     <link rel="stylesheet" href="css/web.css">
 </head>
 <body>
-    <header><!-- Title + list -->
-        <h1>Website About Me!</h1>
-    <nav>
-        <ul>
-          <li><a style="color:rgb(126, 89, 77)" href="#me">About me .</a></li>
-          <li><a style="color:rgb(126, 89, 77)"href="#hobbies">My hobbies .</a></li>
-          <li><a style="color:rgb(126, 89, 77)"href="#form">Guess .</a></li>
-          <li><a style="color:rgb(126, 89, 77)"href="#grow">What i want to be when i grow up .</a></li>
-          <li><a style="color:rgb(126, 89, 77)"href="#project">previous project .</a></li>
-        </ul>
+<header><!-- Title + list -->
+        <h1 class="title">Website About Me!</h1>
+    <nav class="white">
+        
+        <a style="color:rgb(126, 89, 77);margin-left: 10px;" href="#me">   About me  <b>|</b></a>
+        <a style="color:rgb(126, 89, 77);margin-left: 10px;"href="#hobbies">     My hobbies <b>|</b></a>
+        <a style="color:rgb(126, 89, 77);margin-left: 10px;"href="#form">     Guess <b>|</b></a>
+        <a style="color:rgb(126, 89, 77);margin-left: 10px;"href="#grow">     What i want to be when i grow up  <b>|</b></a>
+        <a style="color:rgb(126, 89, 77);margin-left: 10px;"href="#project">     previous projects     </a>
+        
       </nav>
-    </header>
-<main id ="me"><!--Name + picture+paragraph about my self-->
-    
-        <h2 >Dareen Abu Aisheh</h2>
-        <img  src="./Dareen.jpg"onerror="this.src='fallback_image.jpg'" width="370" height="490">
-        <p >My name is Dareen Abu Aisheh , I am 18 years old , i am a palestinian girl and i live in Nablus .I am studying at An-Najah National University CAP major .</p>
-    
+</header>
+<main id ="me" ><!--Name + picture+paragraph about my self-->
+  
+        <div >
+        
+        <img class="me-img" src="./Dareen.jpg"alt="Dareen" width="370" height="490">
+        <div id="head-back">
+        <h1 class="who" >Who am I ?</h1>
+        <p style="font-size: 120%;color:rgb(126, 89, 77);" ><b>My name is Dareen Abu Aisheh . I am 18 years old . I am a palestinian girl and I live in Nablus .I am studying CAP at An-Najah National University  .</b></p>
+      </div>
+      </div>
   
 </main>
 <nav id="hobbies"> <!--hobbies--> 
-        <h3>My hobbies</h3>
-        <ul>
-            <li> I love <a style="color:rgb(126, 89, 77)" href="https://en.wikipedia.org/wiki/Reading">reading</a> </li>
-            <img src="./reading.jpg" onerror="this.src='fallback_image.jpg'"width=100 length=200 >
-            <li>I love <a style="color:rgb(126, 89, 77)"href="https://en.wikipedia.org/wiki/Coding">coding</a> </li>
-            <img src="./coding.jpg"onerror="this.src='fallback_image.jpg'"width=100 length=200 >
-            <li> I love <a style="color:rgb(126, 89, 77)"href="https://en.wikipedia.org/wiki/Walking">walking</a></li>
-            <img src="./walking.jpg" onerror="this.src='fallback_image.jpg'"width=100 length=200>
-        </ul>
-    
+  
+  <div id="pics">
+    <h3 >My hobbies</h3>
+     <img id ="imgs"src="coding.jpg" alt="coding " width="200px" length="300px">
+     <img id ="imgs"src="reading.jpg" alt="reading"width="200px" length="300px">
+     <img id ="imgs"src="walking.jpg" alt="walking"width="200px" length="300px">
+     <div>
+      <a  id="links"style="color: rgb(126, 89, 77);"href="https://en.wikipedia.org/wiki/Coding"target="_blank"><b>Coding</b></a>
+      <a  id="links"style="color: rgb(126, 89, 77);"href="https://en.wikipedia.org/wiki/Reading"target="_blank"><b>Reading</b></a>
+      <a  id="links" style="color: rgb(126, 89, 77);"href="https://en.wikipedia.org/wiki/Walking"target="_blank"><b>Walking</b></a>
+    </div>
+  </div>
+  
 </nav>
 <form id="form"><!--Form-->
-  <label  for="hobby"> Guess my favourite hobby?</label>
+  <h3>Guess!</h3>
+  <label style="margin-left: 40px;color:  rgb(126, 89, 77);font-size: 150%;" for="hobby"><b>Guess my favourite hobby?</b> </label>
             <Input type="text" id="hobby"placeholder="Guess..."></Input>
             <button>submit</button>
 </form>
 <section id="grow"><!--What i want to be when i grow up-->
-       <h3>What i want to be when i grow up ?</h3>
-       <p>I want to be a success person , and when i say success i mean a good daughter ,a good sister , a good friend , i want to depend on myself and i wanna have my own car . That's it ! </p>
+       <h3 >What I want to be when I grow up ?</h3>
+       <p style="margin-left: 20px;font-size: 110%;color: rgb(126, 89, 77);;"><b>I want to be a success person , and when I say success I mean a good daughter ,a good sister , a good friend , I want to depend on myself ,and I wanna be a good developer also I wanna have my own car . That's it ! </b></p>
 </section>
 <nav id ="project"><!--previous project-->
   <h3>One of my previous projects!</h3>
-  <a style="color:rgb(126, 89, 77)"href="https://github.com/dareen-2006/Web-1-assignments.git">My first project</a>
+  <a style="color:rgb(126, 89, 77);font-size: 150%;margin-left: 50px;"href="https://github.com/dareen-2006/Web-1-assignments.git"><b>My first project</b></a>
 </nav>
 </body>
 </html>

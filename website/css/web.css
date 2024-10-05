@@ -19,6 +19,7 @@ main {
     background-color: aliceblue;
     border-radius: 10px;
     margin-bottom: 50px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
    
@@ -32,9 +33,10 @@ main {
 }
 
 .title {
-    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    -webkit-text-fill-color: rgb(242, 244, 247);
+    -webkit-text-fill-color: rgb(126, 89, 77);;
+    font-size: 400%;
     background-color:rgba(220, 188, 177, 0.623);
     padding: 10px 30px ;
     width:95%;
@@ -42,6 +44,9 @@ main {
      margin-bottom: 30px;
     border:10px rgba(220, 188, 177, 0.623) solid;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 html {
@@ -55,13 +60,15 @@ a{
 .white{
     background-color: aliceblue;
     padding: 10px  ;
-    width:55%;
-     margin: auto;
-     margin-bottom: 30px;
-     margin-left: 10px;
+    height: 40px;
+    width:65%;
+     margin:auto;
     border-radius:10px ;
     border-color: rgba(220, 188, 177, 0.623) ;
     border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .me-img{
     position:relative;
@@ -89,9 +96,9 @@ a{
 }
 #imgs{
     
-    margin-left: 210px;
-    margin-top: -38px;
-    margin-bottom: 20px;
+    margin-left: 211px;
+    margin-top: -15px;
+    margin-bottom: 40px;
     border-radius: 10px;
     border-color:rgb(126, 89, 77);
     border-style: solid;
@@ -102,13 +109,16 @@ a{
     background-color:  rgba(220, 188, 177, 0.915);
     border-radius: 10px;
    outline: aliceblue solid 20px;
-    height: 357px;
+    height: 400px;
     
 }
 #links{
-    margin-left: 270px;
-    margin-right: 85px;
-    font-size: 150%;
+    margin-left: 265px;
+    margin-right: 71px;
+    font-size: 170%;
+    text-decoration: underline;
+    color: rgb(126, 89, 77);
+
 }
 #form{
     background-color:rgba(220, 188, 177, 0.915);
@@ -116,12 +126,11 @@ a{
     width:96.5%;
      margin: auto;
      margin-bottom: 70px;
+     margin-top: 65px;
      margin-left: 20px;
     border-radius: 10px;
     outline: aliceblue solid 20px;
-    height: 200px;
-   
-    
+    height: 300px; 
 }
 button{
     padding: 10px;
@@ -144,29 +153,37 @@ Input {
     outline: rgb(126, 89, 77) solid 2px;
     
   }
-  #grow{
+#grow{
     background-color:rgba(220, 188, 177, 0.915) ;
     padding: 10px  ;
     width:96.5%;
      margin: auto;
-     margin-bottom: 80px;
+     margin-bottom: 70px;
      margin-left: 20px;
     outline: aliceblue solid 20px;
     border-radius: 10px;
-    height: 200px;
+    height: 300px;
     
   }
-  #project{
+#project{
     background-color:rgba(220, 188, 177, 0.915) ;
     padding: 10px  ;
     width:96.5%;
      margin: auto;
      margin-top: 20px;
-     margin-bottom: 50px;
+     margin-bottom: 30px;
      margin-left: 20px;
     border-radius: 10px;
     outline: aliceblue solid 20px;
     height: 200px;
   }
+  #label{
+   margin-left: 40px;
+   margin-top: 20px;
+   display: flex;
+   align-items:center;
+   justify-content:center;
+  }
+  
   
 

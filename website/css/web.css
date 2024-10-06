@@ -55,7 +55,9 @@ html {
 }
 a{
     text-decoration: none;
-   text-decoration-color: rgba(220, 188, 177, 0.915);
+   
+   color:rgb(126, 89, 77);
+   font-size: 125%;
 }
 .white{
     background-color: aliceblue;
@@ -68,8 +70,11 @@ a{
     border-style: solid;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 .me-img{
     position:relative;
     left: -137px;
@@ -132,13 +137,14 @@ a{
     outline: aliceblue solid 20px;
     height: 300px; 
 }
-button{
+button {
     padding: 10px;
     color:rgb(126, 89, 77);
     outline: rgb(158, 115, 101) solid  5px;
     border-radius: 5px;
     margin-left: 10px;
-    
+    font-family: monospace;
+    cursor: pointer;
 }
 Input {
     border: 1px solid #ccc;

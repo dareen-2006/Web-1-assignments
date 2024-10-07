@@ -4,7 +4,7 @@
  Padding: 10px;
 width: 1500px;
 text-align: center;
-top:50px;
+
 
 } 
 
@@ -44,7 +44,7 @@ footer{
 nav{
     position: sticky;
     background-color: #D0D0D0;
-    
+    top: 100px;
  padding: 10px;
     display: flex;
    align-items: center;
